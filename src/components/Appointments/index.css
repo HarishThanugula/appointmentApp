@@ -1,0 +1,83 @@
+.bg-container {
+  background-color: aqua;
+  min-height: 100vh;
+  background-size: cover;
+  padding: 40px;
+}
+.container {
+  background-color: white;
+  width: 100%;
+  border-radius: 10px;
+  padding: 50px;
+}
+.top-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+.input-element {
+  margin-bottom: 10px;
+  width: 25vw;
+  padding: 5px;
+  outline: none;
+}
+.add-btn {
+  background-color: #8b5cf6;
+  padding: 5px;
+  width: 75px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.label {
+  color: #b5b7c4;
+  font-size: 12px;
+}
+.image {
+  width: 40vw;
+  height: 300px;
+}
+.divide-line {
+  width: 100%;
+}
+.head-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.appointments {
+  font-size: 16px;
+}
+.star-btn {
+  background-color: transparent;
+  border: solid 1px #8b5cf6;
+}
+.list-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.sorted {
+  background-color: #8b5cf6;
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  font-size: 8px;
+  width: 60px;
+  height: 20px;
+  border: none;
+}
+.not-sorted {
+  background-color: transparent;
+  border: solid 1px #8b5cf6;
+  border-radius: 5px;
+  outline: none;
+  font-size: 8px;
+  width: 60px;
+  height: 20px;
+}

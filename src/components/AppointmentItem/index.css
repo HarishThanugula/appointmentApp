@@ -1,0 +1,30 @@
+.name {
+  font-size: 10px;
+  color: black;
+  font-weight: 600;
+}
+.date {
+  font-size: 10px;
+  color: black;
+}
+.item-container {
+  list-style: none;
+  margin-left: 0px;
+  margin-right: 15px;
+  border: solid 1px #b5b7c4;
+  padding: 6px;
+  border-radius: 10px;
+  width: 200px;
+  margin-bottom: 15px;
+}
+.star-container {
+  display: flex;
+  justify-content: space-between;
+}
+.starIcon-btn {
+  border: none;
+  background-color: transparent;
+}
+.star-image {
+  width: 15px;
+}
